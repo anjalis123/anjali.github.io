@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Website Using Pure Bootstrap</title>
+    <style>
+      .background{
+        background-image: linear-gradient(rgb(121, 114, 73),rgb(219, 122, 171));
+      }
+      img {
+        width: 400px;
+        height: 460px;
+  
+      }
+      .css{
+        animation: anjali 1s linear infinite;
+        text-transform: uppercase;
+      }
+  @keyframes anjali {
+    0%{
+      color: brown;
+    }
+    30%{
+      color: blue;
+    }
+    60%{
+      color: black;
+    }
+    90%{
+      color: yellowgreen;
+    }
+    100%{
+      color: rgb(240, 194, 219);
+    }
+    
+  }
+  footer{
+    background-color: rgb(32, 24, 24);
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .png{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+      h5
+       {
+        color: rgb(20, 6, 56);
+        font-size: 28px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      p{
+        color: rgb(85, 20, 70);
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .container{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      @media(max-width:768px) and (min-width:500px){
+        .container{
+          flex-direction: column;
+          
+        }
+        .card1{
+          width: 30rem;
+          margin-bottom: 10px;
+          border: 2px solid black;
+        }
+        .card2{
+          margin-top: 20px;
+          border: 2px solid black;
+
+        }
+        .card3{
+          margin-top: 30px;
+          border: 2px solid black;
+
+        }
+      }
+    @media(max-width:900px){
+      .container{
+      flex-direction: column;
+      border: 2px solid black;
+
+      }
+    }
+.png img{
+  width: 30px;
+  height: 20px;
+}
+      .card{
+background-image: linear-gradient(rgb(105, 120, 167),rgb(164, 185, 106));      }
+  
+    </style>
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">wEB dEVELOPER </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="/about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="/contact.html">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+  
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </div>
+  </nav>
+  
+  <div class="background">
+    <div  class="container  my-20">
+      <div class="card" style="width: 22rem;">
+        <img src="images (8).jpeg" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">HTML,Bootstrap</h5>
+          <p class="card-text">Here U will get all need design beautiful web pages for that You Have to learn
+            <span class="css">HTML,css and bootstrap</span>
+           using all this language u can design awesome web pages.. bootstarp is popular
+         ........Anjali</p>      
+           <a href="#" class="btn btn-danger">Sign Up</a>
+        </div>
+      </div>
+      <div class="card" style="width: 22rem;">
+        <img src="images (9).jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Java Script</h5>
+          <p class="card-text">Here U will get all need design beautiful web pages for that You Have to learn
+             <span class="css">Java Script</span>
+             java script is very popular 
+            using all this language u can design awesome web pages
+          ........Ansh </p>
+          <a href="/contact.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </div>
+      
+      
+      <div class="card" style="width: 22rem;">
+        <img src="image7.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PHP,mySQL</h5>
+          <p class="card-text">Here you will learn all methodology for back-end part fot that you 
+            have to leran<span class="css">PHP ,MYSQL</span>
+  
+            using all this language apply back-end to web pages and save record succesfully to database
+          ........Shreya Patil</p>
+  
+          <a href="/contact.html" class="btn btn-dark">Sign Up</a>
+        </div>
+      </div>  
+    </div>
+    </div>
+  <footer>
+
+    <div class="png">
+      copyright@ 2020 all right reserved
+
+      <img src="580b57fcd9996e24bc43c514.png" />
+      <img src="5e8ce6a7664eae000408546e.png" />
+      <img src="580b57fcd9996e24bc43c545.png" />
+      <img src="580b57fcd9996e24bc43c521.png" />
+
+    </div>
+  </footer>
+
+
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
